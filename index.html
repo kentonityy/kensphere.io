@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenneth's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b39bd6a5ca.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+            <img src="images/logo.png" alt="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+                <p>Freelance Singer</p>
+                <h1>Hi, I'm <span>Kenneth</span> <br>Palasigue from Tarlac</h1>
+            </div>
+        </div>
+    </div>
+    <div>
+<!--------------about------------------------------>
+        <div id = "about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/received_167437836261932.jpeg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hi, I'm Kenneth Palasigue and as a freelance singer, my musical journey has been a dynamic and fulfilling adventure. The freedom of being an independent artist allows me to explore various genres and styles, from soulful ballads to energetic pop tunes, adapting my voice to suit the unique character of each composition. Collaborating with a wide array of clients and musicians has broadened my musical horizons and enriched my craft. Whether I'm lending my vocals to studio recordings, live performances, or special events, I relish the opportunity to convey emotions and tell stories through song. As a freelance singer, I find immense satisfaction in bringing the joy of music to diverse audiences, making each performance a memorable and harmonious experience.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Vocal Technique</span><br>Pitch Control</li>
+                                <li><span>Range</span><br>Vocal Range</li>
+                                <li><span>Tone Quality</span><br>Timbre</li>
+                                <li><span>Performance Skilla</span><br>Stage Presence</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2016-2017</span><br>Municipal TNT Auditionee</li>
+                                <li><span>2017-2021</span><br>Choir Member & Theater Performer</li>
+                                <li><span>2022-Present</span><br>TAU Choir Member</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+    </div>
+<!----------------services-------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-image-portrait"></i>
+                    <h2>Singing</h2>
+                    <p>It allows me to offer my skills and expertise to a wide range of clients and audiences. It can be a source of income for me personally, and a way to bring music and vocal artistry to various settings and industries.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-image-portrait"></i>
+                    <h2>Editing and Mixing Vocals</h2>
+                    <p>This type of practices is essential in the music and audio production industry, ensuring that vocal performances are polished, professional, and sound their best in various contexts, from music production to podcasts, voiceovers, and more. This service plays a crucial role in achieving a high-quality final product.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-image-portrait"></i>
+                    <h2>Songwriting</h2>
+                    <p>It allows individuals and businesses to access the expertise of professional songwriters to create original music or lyrics that convey specific emotions, messages, or artistic visions. It is particularly valuable for those who may not have the necessary creative or musical skills to compose their own songs.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!------------------portfolio---------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/mic.jpg">
+                <div class="layer">
+                    <h3>Club Singer</h3>
+                    <p>A club singer is a professional vocalist who specializes in performing live music in nightclubs, bars, lounges, and other entertainment venues. My primary role is to entertain and engage the audience by singing a repertoire of songs that cater to the club's atmosphere and clientele.</p>
+                </div>
+
+            </div>
+
+            <div class="work">
+                <img src="images/band.jpg">
+                <div class="layer">
+                    <h3>Band Member</h3>
+                    <p>Being a band member involves teamwork, collaboration, and a shared commitment to creating music. Each member contributes their unique skills and talents to help the band achieve its creative goals and deliver memorable performances to their audience.</p>
+                </div>
+
+            </div>
+
+            <div class="work">
+                <img src="images/choir.jpg">
+                <div class="layer">
+                    <h3>Choir Singer</h3>
+                    <p>They perform in a variety of settings, such as churches, concert halls, schools, and community events. Choir singers blend their voices to create a unified and expressive musical experience, often performing classical choral works, sacred music, contemporary compositions, and more.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------Contact------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>kensanithreee@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 09614802601</p>
+
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/kensanithree.ph/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/Kennsanityy/?fbclid=IwAR2jbKBNNq31qPWFGCw0tiRKZUP_7bfm6zCjYECGEdS2yRF--Y7dWBOw7Oc"><i class="fa-brands fa-instagram"></i></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ 2023 | Kenneth Palasigue</p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz5qiXSYNBZFsYLx4KhvHSen9wiz4toPTGyPXwjx_DY9fklHr8QD74ck3NJaltm6KpVYw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
